@@ -1,0 +1,78 @@
+/* Navbar container */
+.nav {
+    background-color: #f7f7f7;
+    border-bottom: 16px solid #0796d6;
+    box-shadow: 2px 2px 8px #0796d6;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;  
+    padding: 0 20px;      
+    height: 80px;        
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+/* Logo */
+.nav-logo img {
+    height: 200px;
+    width: 200px;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar list */
+.nav-list {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    padding-left: 0;
+}
+
+.nav-item {
+    letter-spacing: 2px;
+}
+
+/* List items and links */
+.nav-list > .nav-item,
+.nav-list > .nav-item > a {
+    opacity: 1;
+    text-decoration: none;
+    transition: 1s;
+}
+
+.nav-list > .nav-item > a {
+    color: #0796d6;
+    font-weight: 500;
+}
+
+/* Hover effect for links */
+.nav-list > .nav-item > a:hover {
+    color: #0572a3;
+    opacity: 0.8;
+}
+
+/* Contact button */
+.nav-contact {
+    display: flex;          
+    align-items: center;     
+}
+
+.nav-contact button {
+    background-color: #0796d6;
+    border: none;
+    color: #fff;
+    letter-spacing: 2px;
+    padding: 0 12px;     
+    border-radius: 16px;
+    cursor: pointer;
+    height: 30px !important;           
+    transition: background-color 0.3s, opacity 0.3s;
+}
+
+/* Hover effect for button */
+.nav-contact button:hover {
+    background-color: #0572a3;
+    opacity: 0.9;
+}

@@ -1,0 +1,84 @@
+/* Container */
+.home-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    margin: 40px 20px;
+    flex-wrap: wrap; /* responsive */
+}
+
+/* Left Image */
+.home-image-container {
+    flex: 1;
+}
+
+.home-image {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    display: block;
+    margin-top: 10px;
+}
+
+/* Right Text */
+.home-text {
+    flex: 1;
+}
+
+/* Headings */
+.home-text h1 {
+    color: #000;
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+.home-text h1 span {
+    color: #0796d6;
+}
+
+.home-text h2 {
+    color: #0796d6;
+    font-size: 30px;
+    margin: 20px 0;
+}
+
+/* Line Separator */
+.line {
+    height: 2px;
+    background-color: #0796d6;
+    margin-bottom: 20px;
+}
+
+/* Paragraph text */
+.home-text p {
+    color: #000;
+    line-height: 1.6;
+}
+
+/* Home section button */
+.read-more-button {
+    /* display: flex; */
+    text-align: end !important; 
+    margin-top: 20px;
+}
+
+.message-us-button {
+    background-color: #0796d6;
+    color: #fff;
+    border: none;
+    border-radius: 16px;
+    padding: 0 12px;      
+    height: 30px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s, opacity 0.3s;
+}
+
+/* Hover effect */
+.message-us-button:hover {
+    background-color: #0572a3;
+    opacity: 0.9;
+    transform: scale(1.05);  /* subtle zoom */
+}
