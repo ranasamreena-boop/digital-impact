@@ -78,6 +78,10 @@ const Services = () => {
     { img: fintechImg, title: "FINTECH" }
   ];
 
+
+
+
+  
   return (
     <section>
 
