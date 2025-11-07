@@ -1,0 +1,81 @@
+.aboutus-section {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Header */
+.aboutus-header {
+  margin-top: 40px;
+}
+
+.aboutus-header h2 {
+  color:  #000;
+  font-size: 30px;
+  margin: 20px 0;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.aboutus-content {
+  letter-spacing: 2px;
+  font-weight: 400;
+}
+
+.aboutus-block {
+  text-align: center;
+  font-size: large;
+  margin-bottom: 30px;
+}
+
+.aboutus-block h2 {
+  color: #0796d6;
+  font-size: 30px;
+  margin: 20px 0;
+  font-weight: bold;
+}
+
+.aboutus-block p b {
+  color: #2a363f;
+}
+
+/* Stats */
+.aboutus-stats {
+  display: flex;
+  margin-bottom: 40px;
+    margin-top: 40px;
+  flex-wrap: wrap;
+    width: fit-content;
+}
+
+.stat-box {
+  text-align: center;
+  padding: 12px;
+  width: 400px;
+  box-sizing: border-box;
+}
+
+.stat-box h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.stat-box h2 {
+  font-size: 30px;
+  margin: 0;
+  align-self: flex-start; 
+}
+
+
+.stat1 {
+  background-color: #2a363f;
+  color: #fff;
+}
+
+.stat2 {
+  background-color: #0796d6;
+  color: #fff;
+}
+
+.stat3 {
+  background-color: #f5f5f5;
+  color: #2a363f;
+}

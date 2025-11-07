@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Navbar.css";
 import logoImage from "../../assets/logo/the-digital-impacts.png";
 
@@ -7,30 +8,32 @@ const Navbar = () => {
     <nav className="nav">
       {/* Logo */}
       <div className="nav-logo">
-        <a href="/">
+        <Link to="/">
           <img src={logoImage} alt="Logo" />
-        </a>
+        </Link>
       </div>
 
       {/* Navigation Links */}
       <ul className="nav-list">
         <li className="nav-item">
-          <a href="/">Home</a>
+          <Link to="/">Home</Link>
         </li>
         <li className="nav-item">
-          <a href="/Services">Services</a>
+          <Link to="/services">Services</Link>
         </li>
         <li className="nav-item">
-          <a href="/AboutUs">About Us</a>
+          <Link to="/about">About Us</Link>
         </li>
         <li className="nav-item">
-          <a href="/Portfolio">Portfolio</a>
+          <Link to="/portfolio">Portfolio</Link>
         </li>
       </ul>
 
       {/* Contact Button */}
       <div className="nav-contact">
-        <button>Contact Us</button>
+        <Link to="/contact">
+          <button>Contact Us</button>
+        </Link>
       </div>
     </nav>
   );

@@ -1,0 +1,59 @@
+css .Portfolio---heading {
+  font-weight: 400;
+  letter-spacing: 2px;
+  margin-top: 40px;
+}
+.Portfolio--Container {
+  font-weight: 400;
+  letter-spacing: 2px;
+  margin: 40px;
+}
+
+.Portfolio1--container {
+  background-color: #f7f7f7;
+  display: flex;
+}
+
+.Portfolio1,
+.Portfolio1 > h1 {
+  color: #0796d6;
+}
+
+.Portfolio1 {
+  box-sizing: border-box;
+  line-height: 40pt;
+  padding: 40px;
+  width: 400px;
+}
+
+.webdevelopment--icon {
+  display: flex;
+}
+.webdevelopment--icon > h1 {
+  color: #0796d6;
+  margin-left: 0;
+  margin-right: 0;
+}
+.Portfolio1--image > a > img {
+  height: 500px;
+  width: 500px;
+}
+.webdevelopment--aws-icon,
+.webdevelopment--aws-icon > h1 {
+  display: flex;
+  justify-content: space-between !important;
+}
+.Portfolio1,
+.Portfolio1 > h1 {
+  color: #0796d6;
+}
+.webdevelopment--icon > p {
+  align-self: center;
+  margin-left: 16px;
+}
+
+.webdevelopment--icon > h1 {
+  color: #0796d6;
+  margin-left: 0;
+  margin-right: 0;
+}
